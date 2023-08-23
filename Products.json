@@ -1,0 +1,93 @@
+[
+    {
+      "nombre": "Dada Honey",
+      "id": 1,
+      "detalle": "dulce",
+      "precio": "1500",
+      "stock": "10",
+      "img": "https://jumboargentina.vtexassets.com/arquivos/ids/716921-500-auto?v=637975785741130000&width=500&height=auto&aspect=true"
+    },
+    {
+      "nombre": "Cosecha Tardia",
+      "id": 2,
+      "detalle": "dulce",
+      "precio": "1000",
+      "stock": "10",
+      "img": "https://01almacen.com.ar/cdn/shop/products/VINO-BLANCO-COSECHA-TARDIA-NORTON-750ML_5eec53_14218_800x.jpg?v=1626962963"
+    },
+    {
+      "nombre": "Jagermeister",
+      "id": 3,
+      "detalle": "herval",
+      "precio": "10000",
+      "stock": "10",
+      "img": "https://01almacen.com.ar/cdn/shop/products/JAGERMEISTER-700-ML-UNIDAD-_d90f22_14047_1024x.jpg?v=1622315537"
+    },
+    {
+      "nombre": "Bombay Sapphire London Dry",
+      "id": 4,
+      "detalle": "blanca",
+      "precio": "7500",
+      "stock": "10",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_669612-MLA43643320606_102020-F.webp"
+    },
+    {
+      "nombre": "Tequila Jose Cuervo Especial gold",
+      "id": 5,
+      "detalle": "blanca",
+      "precio": "10000",
+      "stock": "10",
+      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/211/660/products/jose-cuervo1-cc6f76f78705cf1bf416426897613153-480-0.webp"
+    },
+    {
+      "nombre": "Tequila Jose Cuervo Especial silver",
+      "id": 6,
+      "detalle": "blanca",
+      "precio": "9000",
+      "stock": "10",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_870012-MLA54696006556_032023-O.webp"
+    },
+    {
+      "nombre": "Chivas Mizunara",
+      "id": 7,
+      "detalle": "blanca",
+      "precio": "20500",
+      "stock": "10",
+      "img": "https://www.espaciovino.com.ar/media/default/0001/68/thumb_67230_default_big.jpeg"
+    },
+    {
+      "nombre": "Ron Medellín",
+      "id": 8,
+      "detalle": "blanca",
+      "precio": "40000",
+      "stock": "10",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_700391-MCO42584429018_072020-O.webp"
+    },
+    {
+      "nombre": "Licor Frances De Violetas J. Cartron",
+      "id": 9,
+      "detalle": "dulce",
+      "precio": "10000",
+      "stock": "10",
+      "img": "https://www.losvinos.com.ar/wp-content/uploads/2020/05/Licor-Violeta.jpg"
+    },
+    {
+      "nombre": "Emilia Dulce",
+      "id": 10,
+      "detalle": "dulce",
+      "precio": "1300",
+      "stock": "10",
+      "img": "https://www.romawinecj.com.ar/wp-content/uploads/2019/08/emilia_dulce.jpg"},
+    {
+      "nombre": "Finca Las Moras",
+      "detalle": "Espumante Dadá 7 Sweet Pink",
+      "precio": 2000,
+      "img": [
+        "https://www.vinosyspirits.com/media/catalog/product/d/a/dada_7_sweet_pink.png?optimize=low&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+      ],
+      "codigo": "DADA7",
+      "stock": 10,
+      "status": true,
+      "id": 11
+    }
+  ]
