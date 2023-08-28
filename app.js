@@ -4,7 +4,6 @@ import { fileURLToPath } from "url";
 import path from "path";
 import viewsRouter from "./routers/views.router.js";
 import { Server } from "socket.io";
-//import ProductManager from './dao/models/ProductManager.js';
 import mongoose from "mongoose";
 import productsRouter from "./routers/products.router.js";
 import cartsRouter from "./routers/carts.router.js";
@@ -32,7 +31,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 
-app.engine("handlebars", handlebars.engine());
+app.engine(
+  "handlebars",
+  handlebars({
+    extname: "handlebars",
+    defaultLayout: "main",
+    layoutsDir: path.join(__dirname, "views/layouts"),
+    partialsDir: path.join(__dirname, "views/partials")
+  })
+);
+
 app.set("view engine", "handlebars");
 app.set("views", __dirname + "/views");
 app.use("/", viewsRouter);
@@ -68,6 +76,6 @@ socketServer.on("connection", async (socket) => {
     CM.createMessage(data);
     const messages = await CM.getMessages();
     console.log("Mensajes actualizados:", messages);
-    io.emit("messages", messages);
-});
+    socketServer.emit("messages", messages);
+  });
 });
